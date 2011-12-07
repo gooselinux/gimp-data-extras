@@ -1,0 +1,17 @@
+As the gimp-data-extras-2.0.2 tarball just includes the GNU GPL v2 license text
+without specifying explicitly which license version applies, I asked on IRC
+(irc.gimp.org, #gimp).
+
+Here is the log:
+
+--- 8< ---
+Feb 09 12:34:00 <nils>  is gimp-data-extras licensed as "GPL v2" or "GPL v2 or later"? It's not specified in the tarball...
+Feb 09 12:35:14 <drc>   nils: The stuff in it is over ten years old and pretty useless. So it might be best to just drop it for a while.
+Feb 09 12:35:33 <drc>   There has been some talk of it being redone from the start, but who knows.
+Feb 09 12:37:17 <nils>  drc: I know, I've opened the bugzilla ticket which resulted in the 2.0.2 version which only contains material where we're sure about the origin
+Feb 09 12:40:34 <nils>  drc: as the copyright holder status is cleared, we're continuing the package review for Fedora and for that we need to be sure about the license of the package
+Feb 09 12:41:01 <neo>   consider it GPL v2+ then
+--- >8 ---
+
+In the log, "neo" is Sven Neumann <sven@gimp.org>, "nils" is myself, Nils
+Philippsen <nils@redhat.com>.
